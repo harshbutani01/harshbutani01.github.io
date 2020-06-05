@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 43.75px; /* 43.75 = 1.75 * 25    1.75em didn't work*/
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 992px) {
+    div.contentLg {
+        float: left;
+        width: 33.33%;
+    }
+
+    div.contentLg > div.text {
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1px solid black;
+        position: relative;
+        background-color: powderblue;
+        margin-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    div.text > div.description {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 45px;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    div.text > div.heading1 {
+        border: 1px solid black;
+        clear: left;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 31.25px; /* 31.25 = 1.25 * 25   1.25em didn't work*/
+        background-color: red;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    div.text > div.heading2 {
+        border: 1px solid black;
+        clear: left;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 31.25px;
+        background-color: yellow;
+    }
+
+    div.text > div.heading3 {
+        border: 1px solid black;
+        clear: left;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 31.25px;
+        background-color: blue;
+        color: white;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    div.contentMd1 {
+        float: left;
+        width: 50%;
+    }
+
+    div.contentMd2 {
+        width: 100%;
+        clear: both;
+        position: relative;
+        top: 50px;
+        
+    }
+
+    div.contentMd1 > div.text {
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1px solid black;
+        position: relative;
+        background-color: powderblue;
+        padding-bottom: 30px;
+    }
+
+    div.contentMd2 > div.text {
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1px solid black;
+        background-color: powderblue;
+        position: relative;
+        padding-bottom: 30px;
+    }
+
+    div.text > div.description {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 45px;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    div.text > div.heading1 {
+        border: 1px solid black;
+        clear: left;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 31.25px; /* 31.25 = 1.25 * 25   1.25em didn't work*/
+        background-color: red;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    div.text > div.heading2 {
+        border: 1px solid black;
+        clear: left;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 31.25px;
+        background-color: yellow;
+    }
+
+    div.text > div.heading3 {
+        border: 1px solid black;
+        clear: left;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 31.25px;
+        background-color: blue;
+        color: white;
+    }
+}
+
+@media (max-width: 767px) {
+    div.contentSm > div.text {
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1px solid black;
+        background-color: powderblue;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+        position: relative;
+    }
+
+    div.text > div.description {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 45px;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    div.text > div.heading1 {
+        border: 1px solid black;
+        clear: left;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 31.25px; /* 31.25 = 1.25 * 25   1.25em didn't work*/
+        background-color: red;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    div.text > div.heading2 {
+        border: 1px solid black;
+        clear: left;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 31.25px;
+        background-color: yellow;
+    }
+
+    div.text > div.heading3 {
+        border: 1px solid black;
+        clear: left;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 31.25px;
+        background-color: blue;
+        color: white;
+    }
+}
